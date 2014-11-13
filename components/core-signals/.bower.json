@@ -1,0 +1,18 @@
+{
+  "name": "core-signals",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.0"
+  },
+  "version": "0.5.0",
+  "homepage": "https://github.com/Polymer/core-signals",
+  "_release": "0.5.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.5.0",
+    "commit": "8f4b2f929c41dbe0c5da08feb6f70f733221e1d6"
+  },
+  "_source": "git://github.com/Polymer/core-signals.git",
+  "_target": "^0.5.0",
+  "_originalSource": "Polymer/core-signals"
+}

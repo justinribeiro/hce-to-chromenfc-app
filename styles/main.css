@@ -1,0 +1,88 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  background-color: #E5E5E5;
+  font-family: Arial, sans-serif;
+  color: #222222;
+}
+core-header-panel {
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; 
+}
+
+paper-tabs#tabs::shadow #selectionBar {
+  background-color: #CDDC39;
+}
+
+paper-tabs#tabs paper-tab::shadow #ink {
+  color: #E6EE9C;
+}
+core-toolbar {
+  background: #42bd41;
+  color: white;
+}
+#tabs {
+  width: 100%;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container {
+  width: 100%;
+}
+
+.card {
+  background: #fff;
+  box-sizing: border-box;
+  min-height: 400px;
+  margin: 2em 4em;
+  padding: 4em;
+  border-radius: 2px;
+  display: block;
+  text-align: center;
+}
+
+.card-inline {
+  background: #fff;
+  box-sizing: border-box;
+  /* width: 80%; */
+  height: 400px;
+  margin: 2em 4em;
+  padding: 4em;
+  border-radius: 2px;
+  display: inline-block;
+  width: 42%;
+  vertical-align: top;
+}
+
+.card span {
+  font-size: 4em;
+}
+
+#phone-tap-listening {
+  margin-top: 8em;
+}
+
+.paper-spinner-text {
+  margin-left: 0.5em;
+  font-size: 3em;
+  display: inline-block;
+}
+
+#phone-tap-okay {
+  margin-bottom: 2em;
+}
+
+.phone-tap-okay-icon {
+  height: 40px;
+  width: 40px;
+  color: #008000;
+  vertical-align: top;
+}
+
+#scan-message {
+  font-size: 6em;
+}
