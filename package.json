@@ -1,21 +1,21 @@
 {
   "name": "HCE to Chrome NFC Sample",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chrome App that talks to Android host-based card emulation application.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/robdodson/polymerchromeapp.git"
+    "url": "https://github.com/justinribeiro/hce-to-chromenfc-app.git"
   },
   "author": "",
-  "license": "BSD",
+  "license": "Apache License Version 2.0",
   "bugs": {
-    "url": "https://github.com/robdodson/polymerchromeapp/issues"
+    "url": "https://github.com/justinribeiro/hce-to-chromenfc-app/issues"
   },
-  "homepage": "https://github.com/robdodson/polymerchromeapp",
+  "homepage": "https://github.com/justinribeiro/hce-to-chromenfc-app",
   "devDependencies": {
     "grunt-vulcanize": "~0.5.0",
     "grunt": "~0.4.5",
