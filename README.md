@@ -36,6 +36,20 @@ Also available on Github (make sure you use my [type4-conversation branch](https
 
 I just want to point out that I didn't have to do a great deal of work to make the conversation work; the folks on the Chrome team who wrote the wire communications did a real nice job (I had no issue sending commands to the reader via writeFrame()).
 
+## Updating and building
+
+Since we're a Chrome App and we're using Polymer, we need to use vulecanize and the --csp option. Remember, we have to handle the strict Content Security Policy, otherwise things won't work.
+
+Luckily, this is taken care of via grunt.
+
+```
+npm install -g grunt-cli
+npm install
+grunt
+```
+
+Note: Building a Chrome App and want to spin up some Polymer fast? Check out [PolymerLabs/polymerchromeapp](https://github.com/PolymerLabs/polymerchromeapp), which is what I spun this project from. 
+
 ## Any gotcha's?
 
 Sure. I'm not using wait_for_passive_target() at the moment in this build (it doesn't quite work like libnfc's nfc_initiator_select_passive_target() and I haven't had time to dive into it). There are few shortcuts (there is limited to no NDEF checking; since I wrote the HCE to be RTD_TEXT, I presume RTD_TEXT here...which young programmers, you shouldn't do unless you're running the demo yourself :-).
