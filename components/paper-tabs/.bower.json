@@ -10,13 +10,13 @@
     "paper-icon-button": "Polymer/paper-icon-button#^0.5.0",
     "paper-ripple": "Polymer/paper-ripple#^0.5.0"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/paper-tabs",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "adb0dcbc9c6c41967790efe76db8db373ffe7f59"
+    "tag": "0.5.1",
+    "commit": "c962b7538d67f9ff952d8852ad1d55e28b9904d8"
   },
   "_source": "git://github.com/Polymer/paper-tabs.git",
   "_target": "^0.5.0",

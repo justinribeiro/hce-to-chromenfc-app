@@ -1,6 +1,6 @@
 {
-  "name": "HCE to Chrome NFC Sample",
-  "version": "1.0.0",
+  "name": "HCE-to-Chrome-NFC-Sample",
+  "version": "1.0.2",
   "description": "Chrome App that talks to Android host-based card emulation application.",
   "main": "main.js",
   "scripts": {

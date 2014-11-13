@@ -4,13 +4,13 @@
   "dependencies": {
     "polymer": "Polymer/polymer#^0.5.0"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/core-image",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "49035e85dc98bbf037a28bb317aa5691ddb67711"
+    "tag": "0.5.1",
+    "commit": "9652b414633eb6f54636ea5e488716769515f210"
   },
   "_source": "git://github.com/Polymer/core-image.git",
   "_target": "^0.5.0",

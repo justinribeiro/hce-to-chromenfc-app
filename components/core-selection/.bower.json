@@ -7,13 +7,13 @@
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^1.1.0"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/core-selection",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "5832b998917ee521b2b1b380cc57ec726d3e855d"
+    "tag": "0.5.1",
+    "commit": "85aaa99453fa5c4474dcb3da9f4c7ded51d316a7"
   },
   "_source": "git://github.com/Polymer/core-selection.git",
   "_target": "^0.5.0",

@@ -4,13 +4,13 @@
   "dependencies": {
     "core-selector": "Polymer/core-selector#^0.5.0"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/core-pages",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "776c43eac7bb6a840f1e01dda2bf82b9155d7e04"
+    "tag": "0.5.1",
+    "commit": "edc04342a35e6783137410cfae2008a12d4ae125"
   },
   "_source": "git://github.com/Polymer/core-pages.git",
   "_target": "^0.5.0",

@@ -7,13 +7,13 @@
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^1.1.0"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/core-localstorage",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "413a4d0c3d3593f39e780df380fb2bbf54e0acf1"
+    "tag": "0.5.1",
+    "commit": "920e68ed90fa2d664d995a1d70acd6be0ddcd6c7"
   },
   "_source": "git://github.com/Polymer/core-localstorage.git",
   "_target": "^0.5.0",

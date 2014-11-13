@@ -5,13 +5,13 @@
     "webcomponentsjs": "Polymer/webcomponentsjs#^0.5.0",
     "polymer": "Polymer/polymer#^0.5.0"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/core-component-page",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "0514134f0bcba4a29028b3c3feb1472c05600532"
+    "tag": "0.5.1",
+    "commit": "ef1f86e659fd7498755e027d1561acc963d67807"
   },
   "_source": "git://github.com/Polymer/core-component-page.git",
   "_target": "^0.5.0",

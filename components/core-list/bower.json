@@ -29,5 +29,5 @@
     "paper-slider": "Polymer/paper-slider#master",
     "paper-spinner": "Polymer/paper-spinner#master"
   },
-  "version": "0.5.0"
+  "version": "0.5.1"
 }

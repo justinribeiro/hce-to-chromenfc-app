@@ -6,13 +6,13 @@
     "core-collapse": "Polymer/core-collapse#^0.5.0",
     "core-item": "Polymer/core-item#^0.5.0"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/core-menu",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "5fdc874e645ba46af0942debba521c4663859b5d"
+    "tag": "0.5.1",
+    "commit": "dd50b7997cefc0574d3462228f0abf77cdf71d24"
   },
   "_source": "git://github.com/Polymer/core-menu.git",
   "_target": "^0.5.0",

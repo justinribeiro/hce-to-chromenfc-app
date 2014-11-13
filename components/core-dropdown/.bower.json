@@ -9,15 +9,15 @@
     "core-overlay": "Polymer/core-overlay#^0.5.0"
   },
   "devDependencies": {
-    "web-component-tester": "Polymer/web-component-tester#^1.1.4"
+    "web-component-tester": "*"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/core-dropdown",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "c594a3a4e28788d9540c99e06d45d5e866359b73"
+    "tag": "0.5.1",
+    "commit": "571ffcf00cfcb230cfdc4551f09cbddcac84c3d7"
   },
   "_source": "git://github.com/Polymer/core-dropdown.git",
   "_target": "^0.5.0",

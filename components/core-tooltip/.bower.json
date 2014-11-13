@@ -8,13 +8,13 @@
     "core-icon-button": "Polymer/core-icon-button#^0.5.0",
     "paper-fab": "Polymer/paper-fab#^0.5.0"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/core-tooltip",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "b4150d015591afff07d27057903c77547555b593"
+    "tag": "0.5.1",
+    "commit": "56a5c97bf5a41b435707905f1f86a864096426d6"
   },
   "_source": "git://github.com/Polymer/core-tooltip.git",
   "_target": "^0.5.0",

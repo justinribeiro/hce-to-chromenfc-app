@@ -4,13 +4,13 @@
   "dependencies": {
     "polymer": "Polymer/polymer#^0.5.0"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/Polymer/core-signals",
-  "_release": "0.5.0",
+  "_release": "0.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.0",
-    "commit": "8f4b2f929c41dbe0c5da08feb6f70f733221e1d6"
+    "tag": "0.5.1",
+    "commit": "5b84ae78099028efbac3e62e5ca53f72a0630796"
   },
   "_source": "git://github.com/Polymer/core-signals.git",
   "_target": "^0.5.0",
