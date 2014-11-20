@@ -16,6 +16,7 @@ var compatibleDevices = [
 var device = null;
 var loopInterval = null;
 var scanMessage = null;
+var states = null;
 
 function haveType4Conversation() {
   console.info("===== JDR - Starting our Type-4 conversation =====");
@@ -104,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   var tabs = document.querySelector('paper-tabs');
   var pages = document.querySelector('core-pages');
-  var states = document.querySelector('core-animated-pages');
+  states = document.querySelector('core-animated-pages');
 
   scanMessage = document.querySelector('#scan-message');
 
