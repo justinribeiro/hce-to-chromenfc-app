@@ -1533,6 +1533,15 @@ usbSCL3711.prototype.apdu = function(req, cb, write_only) {
     });
   }
 };
+usbSCL3711.prototype.acr122_get_current_settings = function(cb) {
+  var self = this;
+  var callback = cb;
+  self.exchange((new Uint8Array([107, 5, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 2, 212, 2])).buffer, 1, function(rc, data) {
+    if (callback) {
+      callback(rc, data);
+    }
+  });
+};
 usbSCL3711.prototype.sendCommand = function(command, callback, check, step) {
   var u8 = new Uint8Array(this.makeFrame(64, UTIL_concat([1], command)));
   for (var i = 0;i < u8.length;i += 64) {

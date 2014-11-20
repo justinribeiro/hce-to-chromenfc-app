@@ -44,6 +44,8 @@ function haveType4Conversation() {
             console.info("Sending ReadBinary, get NDEF data...");
             chrome.nfc.conversation(device, {step: 5}, function(hex, raw, message, check) {
               
+              window.clearInterval(loopInterval);
+              
               console.log("NDEF says: " + hex);
               console.log("NDEF text = " + message);
 
@@ -54,7 +56,8 @@ function haveType4Conversation() {
               setTimeout(function(){
                 states.selected = 0;
                 scanMessage.textContent = "";
-              }, 6000);
+                loopInterval = setInterval(haveType4Conversation, 1750);
+              }, 4000);
             
               console.info("Wrapping up, closing session.");
             });
@@ -89,7 +92,7 @@ function showDeviceInfo() {
   var vendorId = document.querySelector('#device-vendor-id');
   vendorId.textContent = deviceInfo.vendorId;
 
-  loopInterval = setInterval(haveType4Conversation, 2000);
+  loopInterval = setInterval(haveType4Conversation, 1750);
 }
 
 function enumerateDevices() {
