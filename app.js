@@ -57,7 +57,7 @@ function haveType4Conversation() {
                 states.selected = 0;
                 scanMessage.textContent = "";
                 loopInterval = setInterval(haveType4Conversation, 1750);
-              }, 4000);
+              }, 5000);
             
               console.info("Wrapping up, closing session.");
             });
